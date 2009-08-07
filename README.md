@@ -1,17 +1,15 @@
 This is Webhook Growler, receives Web hooks over Reverse HTTP and displays Growl notification on your desktop.
 
-Handlers for various webhooks are pluggable, currently supporting
-PubSubHubbub, Github, Google Code etc. It's so easy to write your own
-plugin to extra event types.
+Handlers for various webhooks are pluggable, currently supporting PubSubHubbub, Github, Google Code etc. It's so easy to write your own plugin to extra event types.
 
-INSTALLATION
+## INSTALLATION
 
 Webhook Growler requires a couple of CPAN modules. Run the following commands to install them.
 
     % perl Makefile.PL
     % make installdeps
 
-CONFIGURATION
+## CONFIGURATION
 
 The script takes two optional parameters to configure your reversehttp host label and token:
 
@@ -19,8 +17,8 @@ The script takes two optional parameters to configure your reversehttp host labe
 
 See http://www.reversehttp.net/ for details.
 
-COPYRIGHT & LICENSE
+## COPYRIGHT & LICENSE
 
-Tatsuhiko Miyagawa 2009-
+Copyright Tatsuhiko Miyagawa 2009-
 
 This software is free software, licensed under the same terms as Perl 5.
