@@ -1,27 +1,22 @@
-This is Perl module webhook::growler.
+This is Webhook Growler, receives Web hooks over Reverse HTTP and displays Growl notification on your desktop.
 
 INSTALLATION
 
-webhook::growler installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
-
-    % cpan webhook::growler
-
-Download it, unpack it, then build it as per the usual:
+Webhook Growler requires a couple of CPAN modules. Run the following commands to install them.
 
     % perl Makefile.PL
-    % make && make test
+    % make installdeps
 
-Then install it:
+CONFIGURATION
 
-    % make install
+The script takes two optional parameters to configure your reversehttp host label and token:
 
-DOCUMENTATION
+    % ./webhook-growler.pl label token
 
-webhook::growler documentation is available as in POD. So you can do:
+See http://www.reversehttp.net/ for details.
 
-    % perldoc webhook::growler
+COPYRIGHT & LICENSE
 
-to read the documentation online with your favorite pager.
+Tatsuhiko Miyagawa 2009-
 
-Tatsuhiko Miyagawa
+This software is free software, licensed under the same terms as Perl 5.
