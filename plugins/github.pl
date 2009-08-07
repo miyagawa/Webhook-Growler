@@ -1,5 +1,4 @@
 use Digest::MD5;
-sub path { "/github" }
 
 sub handle {
     my($self, $post) = @_;

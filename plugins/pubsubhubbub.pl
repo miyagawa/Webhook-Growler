@@ -1,5 +1,3 @@
-sub path { "/pubsubhubbub" }
-
 sub handle {
     my($self, $feed, $req) = @_;
 

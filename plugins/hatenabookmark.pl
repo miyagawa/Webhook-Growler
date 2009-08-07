@@ -1,6 +1,4 @@
 # TODO key config
-sub path { "/hatenabookmark" }
-
 sub handle {
     my($self, $post) = @_;
 

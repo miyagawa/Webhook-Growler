@@ -1,5 +1,3 @@
-sub path { "/googlecode" }
-
 sub handle {
     my($self, $post) = @_;
 

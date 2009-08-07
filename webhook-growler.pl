@@ -155,6 +155,7 @@ sub compile_plugin {
     my $file = shift;
 
     my $name = $file->basename;
+    $name =~ s/\.\w+$//;
     $name =~ s/[^\w]/_/g;
     my $pkg = "Webhook::Growler::Plugin::$name";
 
@@ -164,6 +165,9 @@ use strict;
 use base qw(Webhook::Growler::Plugin);
 
 @{[ $file->slurp ]}
+
+sub name { "$name" }
+sub path { "/" . shift->name }
 
 1;
 CODE
