@@ -1,5 +1,9 @@
 This is Webhook Growler, receives Web hooks over Reverse HTTP and displays Growl notification on your desktop.
 
+Handlers for various webhooks are pluggable, currently supporting
+PubSubHubbub, Github, Google Code etc. It's so easy to write your own
+plugin to extra event types.
+
 INSTALLATION
 
 Webhook Growler requires a couple of CPAN modules. Run the following commands to install them.
